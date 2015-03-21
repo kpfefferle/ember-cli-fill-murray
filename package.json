@@ -1,7 +1,7 @@
 {
-  "name": "ember-cli-fill-murray",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "name": "ember-cli-fill-murray-kpfefferle",
+  "version": "0.1.1",
+  "description": "{{fill-murray}} camponent from ember-cli-101 book.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,7 +11,7 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": "https://github.com/kpfefferle/ember-cli-fill-murray",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -37,5 +37,8 @@
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "dependencies": {
+    "ember-cli-htmlbars": "^0.7.4"
   }
 }
